@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c,d;
+    float e;
+    printf("Vize notunuzu giriniz:");
+    scanf("%d",&a);
+    printf("Final notunuzu giriniz:");
+    scanf("%d",&b);
+    printf("Vize etki oranını giriniz:");
+    scanf("%d",&c);
+    d=1-c;
+    e=a*c+b*d;
+    printf("Ders notunuz:%f",e);
+    return 0;
+}
